@@ -1,0 +1,58 @@
+﻿{
+    "subsonic-response":  {
+                              "status":  "ok",
+                              "version":  "1.16.1",
+                              "type":  "navidrome",
+                              "serverVersion":  "0.62.0 (1b46b977)",
+                              "openSubsonic":  true,
+                              "albumList2":  {
+                                                 "album":  [
+                                                               {
+                                                                   "id":  "68RTjMn77O6rBFiwBwvxOx",
+                                                                   "name":  "Certified Lover Boy",
+                                                                   "artist":  "Drake",
+                                                                   "artistId":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                   "coverArt":  "al-68RTjMn77O6rBFiwBwvxOx_6a3f036a",
+                                                                   "songCount":  21,
+                                                                   "duration":  5173,
+                                                                   "created":  "2026-06-26T22:58:15.047448588Z",
+                                                                   "year":  2021,
+                                                                   "userRating":  0,
+                                                                   "genres":  [
+
+                                                                              ],
+                                                                   "musicBrainzId":  "",
+                                                                   "isCompilation":  false,
+                                                                   "sortName":  "certified lover boy",
+                                                                   "discTitles":  [
+
+                                                                                  ],
+                                                                   "originalReleaseDate":  {
+
+                                                                                           },
+                                                                   "releaseDate":  {
+
+                                                                                   },
+                                                                   "releaseTypes":  [
+
+                                                                                    ],
+                                                                   "recordLabels":  [
+
+                                                                                    ],
+                                                                   "moods":  [
+
+                                                                             ],
+                                                                   "artists":  [
+                                                                                   {
+                                                                                       "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                       "name":  "Drake"
+                                                                                   }
+                                                                               ],
+                                                                   "displayArtist":  "Drake",
+                                                                   "explicitStatus":  "explicit",
+                                                                   "version":  ""
+                                                               }
+                                                           ]
+                                             }
+                          }
+}

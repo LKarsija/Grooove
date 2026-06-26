@@ -1,7 +1,7 @@
 services:
   navidrome:
     image: deluan/navidrome:latest
-    container_name: groooove-navidrome
+    container_name: grooove-navidrome
 
     ports:
       - "4533:4533"

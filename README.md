@@ -10,7 +10,7 @@
 
 Grooove is an open-source modern music player designed for legacy iOS devices.
 
-Instead of relying on obsolete streaming clients, Groooove connects directly to modern self-hosted music servers such as Navidrome.
+Instead of relying on obsolete streaming clients, Grooove connects directly to modern self-hosted music servers such as Navidrome.
 
 ## Planned Features
 

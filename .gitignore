@@ -6,3 +6,6 @@ docker/data/
 
 # Local music library (dev only)
 music/
+
+# Generated URLs contain auth tokens (JSON examples are safe to commit)
+docs/api_examples/*.txt

@@ -1,7 +1,8 @@
 # ============================================
-# Groooove - Navidrome API Smoke Test
+# Grooove - Navidrome API Smoke Test
+# Saves JSON examples to docs/api_examples/
 # ============================================
-# Copy scripts/config.example.ps1 to scripts/config.local.ps1 before running.
+# Run from scripts/:  Set-ExecutionPolicy -Scope Process Bypass; .\test-navidrome.ps1
 
 $configPath = Join-Path $PSScriptRoot "config.local.ps1"
 if (-not (Test-Path $configPath)) {
@@ -11,76 +12,118 @@ if (-not (Test-Path $configPath)) {
 
 . $configPath
 
-# --------------------------------------------
-# Generate authentication token
-# --------------------------------------------
+function Get-SubsonicQueryString {
+    param([hashtable]$Extra = @{})
 
-$Salt = -join ((97..122) | Get-Random -Count 8 | ForEach-Object { [char]$_ })
+    $Params = @{}
+    foreach ($Key in $Common.Keys) { $Params[$Key] = $Common[$Key] }
+    foreach ($Key in $Extra.Keys) { $Params[$Key] = $Extra[$Key] }
 
-$MD5 = [System.Security.Cryptography.MD5]::Create()
-$Bytes = [System.Text.Encoding]::UTF8.GetBytes($Password + $Salt)
-$Token = ($MD5.ComputeHash($Bytes) | ForEach-Object { $_.ToString("x2") }) -join ""
+    ($Params.GetEnumerator() | ForEach-Object {
+        "{0}={1}" -f [uri]::EscapeDataString($_.Key), [uri]::EscapeDataString([string]$_.Value)
+    }) -join "&"
+}
+
+function Invoke-Subsonic {
+    param(
+        [string]$Endpoint,
+        [hashtable]$Extra = @{}
+    )
+
+    $Uri = "$Base/$Endpoint" + "?" + (Get-SubsonicQueryString -Extra $Extra)
+    Invoke-RestMethod -Uri $Uri -Method Get
+}
+
+$Salt = "grooove"
+$Hash = [System.BitConverter]::ToString(
+    [System.Security.Cryptography.MD5]::Create().ComputeHash(
+        [System.Text.Encoding]::UTF8.GetBytes($Password + $Salt)
+    )
+).Replace("-", "").ToLower()
+
+$Base = "$Server/rest"
 
 $Common = @{
     u = $Username
-    t = $Token
+    t = $Hash
     s = $Salt
     v = "1.16.1"
-    c = "Groooove"
+    c = "Grooove"
     f = "json"
 }
 
-# ============================================
-# PING
-# ============================================
+$Output = Join-Path $PSScriptRoot "..\docs\api_examples"
+$Output = [System.IO.Path]::GetFullPath($Output)
+
+if (-not (Test-Path $Output)) {
+    New-Item -ItemType Directory -Force -Path $Output | Out-Null
+}
 
 Write-Host ""
 Write-Host "========== PING =========="
 
-$Ping = Invoke-RestMethod `
-    -Uri "$Server/rest/ping.view" `
-    -Method Get `
-    -Body $Common
+$Ping = Invoke-Subsonic -Endpoint "ping.view"
 
-$Ping.'subsonic-response'
+if ($Ping."subsonic-response".status -ne "ok") {
+    $Ping."subsonic-response".error | Format-List
+    exit 1
+}
 
-# ============================================
-# GET ALBUMS
-# ============================================
+$Ping | ConvertTo-Json -Depth 10 | Out-File -Encoding utf8 (Join-Path $Output "ping.json")
+
+Write-Host "Saved ping.json"
 
 Write-Host ""
 Write-Host "========== ALBUMS =========="
 
-$Albums = Invoke-RestMethod `
-    -Uri "$Server/rest/getAlbumList2.view" `
-    -Method Get `
-    -Body ($Common + @{
-        type = "alphabeticalByName"
-        size = 50
-        offset = 0
-    })
+$AlbumResponse = Invoke-Subsonic -Endpoint "getAlbumList2.view" -Extra @{
+    type   = "alphabeticalByName"
+    size   = 50
+    offset = 0
+}
 
-$Album = $Albums.'subsonic-response'.albumList2.album | Select-Object -First 1
+$AlbumResponse | ConvertTo-Json -Depth 20 | Out-File -Encoding utf8 (Join-Path $Output "albums.json")
 
-Write-Host ""
+$AlbumList = @($AlbumResponse."subsonic-response".albumList2.album)
+if ($AlbumList.Count -eq 0) {
+    Write-Host "No albums found in library."
+    exit 0
+}
+
+$Album = $AlbumList[0]
+
 Write-Host "Album:"
 Write-Host $Album.name
+
 Write-Host ""
-
-# ============================================
-# GET SONGS
-# ============================================
-
 Write-Host "========== SONGS =========="
 
-$AlbumInfo = Invoke-RestMethod `
-    -Uri "$Server/rest/getAlbum.view" `
-    -Method Get `
-    -Body ($Common + @{
-        id = $Album.id
-    })
+$AlbumDetails = Invoke-Subsonic -Endpoint "getAlbum.view" -Extra @{ id = $Album.id }
 
-foreach ($Song in $AlbumInfo.'subsonic-response'.album.song)
-{
-    Write-Host "$($Song.track). $($Song.title)"
+$AlbumDetails | ConvertTo-Json -Depth 20 | Out-File -Encoding utf8 (Join-Path $Output "album.json")
+
+$Songs = @($AlbumDetails."subsonic-response".album.song)
+$i = 1
+foreach ($Song in $Songs) {
+    Write-Host "$i. $($Song.title)"
+    $i++
 }
+
+$FirstSong = $Songs[0]
+
+$StreamUrl = "$Base/stream.view?" + (Get-SubsonicQueryString -Extra @{ id = $FirstSong.id })
+$CoverUrl = "$Base/getCoverArt.view?" + (Get-SubsonicQueryString -Extra @{
+    id   = $Album.coverArt
+    size = 600
+})
+
+$StreamUrl | Out-File -Encoding utf8 (Join-Path $Output "stream.txt")
+$CoverUrl | Out-File -Encoding utf8 (Join-Path $Output "coverart.txt")
+
+Write-Host ""
+Write-Host "Saved:"
+Write-Host "ping.json"
+Write-Host "albums.json"
+Write-Host "album.json"
+Write-Host "stream.txt"
+Write-Host "coverart.txt"

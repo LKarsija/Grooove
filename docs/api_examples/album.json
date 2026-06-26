@@ -1,0 +1,1485 @@
+﻿{
+    "subsonic-response":  {
+                              "status":  "ok",
+                              "version":  "1.16.1",
+                              "type":  "navidrome",
+                              "serverVersion":  "0.62.0 (1b46b977)",
+                              "openSubsonic":  true,
+                              "album":  {
+                                            "id":  "68RTjMn77O6rBFiwBwvxOx",
+                                            "name":  "Certified Lover Boy",
+                                            "artist":  "Drake",
+                                            "artistId":  "2Y09fvZjxV9n5twPmfCTDz",
+                                            "coverArt":  "al-68RTjMn77O6rBFiwBwvxOx_6a3f036a",
+                                            "songCount":  21,
+                                            "duration":  5173,
+                                            "created":  "2026-06-26T22:58:15.047448588Z",
+                                            "year":  2021,
+                                            "userRating":  0,
+                                            "genres":  [
+
+                                                       ],
+                                            "musicBrainzId":  "",
+                                            "isCompilation":  false,
+                                            "sortName":  "certified lover boy",
+                                            "discTitles":  [
+
+                                                           ],
+                                            "originalReleaseDate":  {
+
+                                                                    },
+                                            "releaseDate":  {
+
+                                                            },
+                                            "releaseTypes":  [
+
+                                                             ],
+                                            "recordLabels":  [
+
+                                                             ],
+                                            "moods":  [
+
+                                                      ],
+                                            "artists":  [
+                                                            {
+                                                                "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                "name":  "Drake"
+                                                            }
+                                                        ],
+                                            "displayArtist":  "Drake",
+                                            "explicitStatus":  "explicit",
+                                            "version":  "",
+                                            "song":  [
+                                                         {
+                                                             "id":  "EGRBMz9z7sHW5E1NgEeL8a",
+                                                             "parent":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "isDir":  false,
+                                                             "title":  "Champagne Poetry",
+                                                             "album":  "Certified Lover Boy",
+                                                             "artist":  "Drake",
+                                                             "track":  1,
+                                                             "year":  2021,
+                                                             "coverArt":  "mf-EGRBMz9z7sHW5E1NgEeL8a_6a3f035b",
+                                                             "size":  66613996,
+                                                             "contentType":  "audio/flac",
+                                                             "suffix":  "flac",
+                                                             "duration":  336,
+                                                             "bitRate":  1581,
+                                                             "path":  "Drake/Certified Lover Boy/01-01 - Champagne Poetry.flac",
+                                                             "discNumber":  1,
+                                                             "created":  "2026-06-26T22:58:15.051936018Z",
+                                                             "albumId":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "artistId":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                             "type":  "music",
+                                                             "bpm":  155,
+                                                             "comment":  "",
+                                                             "sortName":  "champagne poetry",
+                                                             "mediaType":  "song",
+                                                             "musicBrainzId":  "",
+                                                             "isrc":  [
+                                                                          "USUG12104397"
+                                                                      ],
+                                                             "genres":  [
+
+                                                                        ],
+                                                             "replayGain":  {
+                                                                                "trackGain":  -9.3,
+                                                                                "trackPeak":  0.996948
+                                                                            },
+                                                             "channelCount":  2,
+                                                             "samplingRate":  48000,
+                                                             "bitDepth":  24,
+                                                             "moods":  [
+
+                                                                       ],
+                                                             "artists":  [
+                                                                             {
+                                                                                 "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                 "name":  "Drake"
+                                                                             }
+                                                                         ],
+                                                             "displayArtist":  "Drake",
+                                                             "albumArtists":  [
+                                                                                  {
+                                                                                      "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                      "name":  "Drake"
+                                                                                  }
+                                                                              ],
+                                                             "displayAlbumArtist":  "Drake",
+                                                             "contributors":  [
+
+                                                                              ],
+                                                             "displayComposer":  "",
+                                                             "explicitStatus":  "explicit",
+                                                             "groupings":  [
+
+                                                                           ]
+                                                         },
+                                                         {
+                                                             "id":  "ArfOguVe09zzBAeXqCPlFH",
+                                                             "parent":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "isDir":  false,
+                                                             "title":  "Papiâs Home",
+                                                             "album":  "Certified Lover Boy",
+                                                             "artist":  "Drake",
+                                                             "track":  2,
+                                                             "year":  2021,
+                                                             "coverArt":  "mf-ArfOguVe09zzBAeXqCPlFH_6a3f035e",
+                                                             "size":  37365018,
+                                                             "contentType":  "audio/flac",
+                                                             "suffix":  "flac",
+                                                             "duration":  178,
+                                                             "bitRate":  1668,
+                                                             "path":  "Drake/Certified Lover Boy/01-02 - Papiâs Home.flac",
+                                                             "discNumber":  1,
+                                                             "created":  "2026-06-26T22:58:15.049031951Z",
+                                                             "albumId":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "artistId":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                             "type":  "music",
+                                                             "bpm":  93,
+                                                             "comment":  "",
+                                                             "sortName":  "papi\u0027s home",
+                                                             "mediaType":  "song",
+                                                             "musicBrainzId":  "",
+                                                             "isrc":  [
+                                                                          "USUG12104398"
+                                                                      ],
+                                                             "genres":  [
+
+                                                                        ],
+                                                             "replayGain":  {
+                                                                                "trackGain":  -9.47,
+                                                                                "trackPeak":  1
+                                                                            },
+                                                             "channelCount":  2,
+                                                             "samplingRate":  48000,
+                                                             "bitDepth":  24,
+                                                             "moods":  [
+
+                                                                       ],
+                                                             "artists":  [
+                                                                             {
+                                                                                 "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                 "name":  "Drake"
+                                                                             }
+                                                                         ],
+                                                             "displayArtist":  "Drake",
+                                                             "albumArtists":  [
+                                                                                  {
+                                                                                      "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                      "name":  "Drake"
+                                                                                  }
+                                                                              ],
+                                                             "displayAlbumArtist":  "Drake",
+                                                             "contributors":  [
+
+                                                                              ],
+                                                             "displayComposer":  "",
+                                                             "explicitStatus":  "explicit",
+                                                             "groupings":  [
+
+                                                                           ]
+                                                         },
+                                                         {
+                                                             "id":  "ATqRghfFFGsZrglDYCEY0m",
+                                                             "parent":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "isDir":  false,
+                                                             "title":  "Girls Want Girls",
+                                                             "album":  "Certified Lover Boy",
+                                                             "artist":  "Drake; Lil Baby",
+                                                             "track":  3,
+                                                             "year":  2021,
+                                                             "coverArt":  "mf-ATqRghfFFGsZrglDYCEY0m_6a3f0367",
+                                                             "size":  43805555,
+                                                             "contentType":  "audio/flac",
+                                                             "suffix":  "flac",
+                                                             "duration":  221,
+                                                             "bitRate":  1574,
+                                                             "path":  "Drake/Certified Lover Boy/01-03 - Girls Want Girls.flac",
+                                                             "discNumber":  1,
+                                                             "created":  "2026-06-26T22:58:15.051127132Z",
+                                                             "albumId":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "artistId":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                             "type":  "music",
+                                                             "bpm":  87,
+                                                             "comment":  "",
+                                                             "sortName":  "girls want girls",
+                                                             "mediaType":  "song",
+                                                             "musicBrainzId":  "",
+                                                             "isrc":  [
+                                                                          "USUG12104399"
+                                                                      ],
+                                                             "genres":  [
+
+                                                                        ],
+                                                             "replayGain":  {
+                                                                                "trackGain":  -7.87,
+                                                                                "trackPeak":  1
+                                                                            },
+                                                             "channelCount":  2,
+                                                             "samplingRate":  48000,
+                                                             "bitDepth":  24,
+                                                             "moods":  [
+
+                                                                       ],
+                                                             "artists":  [
+                                                                             {
+                                                                                 "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                 "name":  "Drake"
+                                                                             },
+                                                                             {
+                                                                                 "id":  "2rmgZptVXqF3Je7O24mZhu",
+                                                                                 "name":  "Lil Baby"
+                                                                             }
+                                                                         ],
+                                                             "displayArtist":  "Drake; Lil Baby",
+                                                             "albumArtists":  [
+                                                                                  {
+                                                                                      "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                      "name":  "Drake"
+                                                                                  }
+                                                                              ],
+                                                             "displayAlbumArtist":  "Drake",
+                                                             "contributors":  [
+
+                                                                              ],
+                                                             "displayComposer":  "",
+                                                             "explicitStatus":  "explicit",
+                                                             "groupings":  [
+
+                                                                           ]
+                                                         },
+                                                         {
+                                                             "id":  "4vVbsajCH1zAcGUsTCwy0W",
+                                                             "parent":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "isDir":  false,
+                                                             "title":  "In The Bible",
+                                                             "album":  "Certified Lover Boy",
+                                                             "artist":  "Drake; Lil Durk; GIVÄON",
+                                                             "track":  4,
+                                                             "year":  2021,
+                                                             "coverArt":  "mf-4vVbsajCH1zAcGUsTCwy0W_6a3f0357",
+                                                             "size":  56813186,
+                                                             "contentType":  "audio/flac",
+                                                             "suffix":  "flac",
+                                                             "duration":  296,
+                                                             "bitRate":  1529,
+                                                             "path":  "Drake/Certified Lover Boy/01-04 - In The Bible.flac",
+                                                             "discNumber":  1,
+                                                             "created":  "2026-06-26T22:58:15.051350883Z",
+                                                             "albumId":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "artistId":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                             "type":  "music",
+                                                             "bpm":  143,
+                                                             "comment":  "",
+                                                             "sortName":  "in the bible",
+                                                             "mediaType":  "song",
+                                                             "musicBrainzId":  "",
+                                                             "isrc":  [
+                                                                          "USUG12104400"
+                                                                      ],
+                                                             "genres":  [
+
+                                                                        ],
+                                                             "replayGain":  {
+                                                                                "trackGain":  -8.93,
+                                                                                "trackPeak":  1
+                                                                            },
+                                                             "channelCount":  2,
+                                                             "samplingRate":  48000,
+                                                             "bitDepth":  24,
+                                                             "moods":  [
+
+                                                                       ],
+                                                             "artists":  [
+                                                                             {
+                                                                                 "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                 "name":  "Drake"
+                                                                             },
+                                                                             {
+                                                                                 "id":  "5MIWXseMvqS9FM8kzfoGP4",
+                                                                                 "name":  "Lil Durk"
+                                                                             },
+                                                                             {
+                                                                                 "id":  "2KvycvjGpxpZ374x4GZG4h",
+                                                                                 "name":  "GIVÄON"
+                                                                             }
+                                                                         ],
+                                                             "displayArtist":  "Drake; Lil Durk; GIVÄON",
+                                                             "albumArtists":  [
+                                                                                  {
+                                                                                      "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                      "name":  "Drake"
+                                                                                  }
+                                                                              ],
+                                                             "displayAlbumArtist":  "Drake",
+                                                             "contributors":  [
+
+                                                                              ],
+                                                             "displayComposer":  "",
+                                                             "explicitStatus":  "explicit",
+                                                             "groupings":  [
+
+                                                                           ]
+                                                         },
+                                                         {
+                                                             "id":  "cG9xp3uLaH4VHwsMJnCsAr",
+                                                             "parent":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "isDir":  false,
+                                                             "title":  "Love All",
+                                                             "album":  "Certified Lover Boy",
+                                                             "artist":  "Drake; JAÅ¸-Z",
+                                                             "track":  5,
+                                                             "year":  2021,
+                                                             "coverArt":  "mf-cG9xp3uLaH4VHwsMJnCsAr_6a3f0362",
+                                                             "size":  43916271,
+                                                             "contentType":  "audio/flac",
+                                                             "suffix":  "flac",
+                                                             "duration":  228,
+                                                             "bitRate":  1533,
+                                                             "path":  "Drake/Certified Lover Boy/01-05 - Love All.flac",
+                                                             "discNumber":  1,
+                                                             "created":  "2026-06-26T22:58:15.048792796Z",
+                                                             "albumId":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "artistId":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                             "type":  "music",
+                                                             "bpm":  92,
+                                                             "comment":  "",
+                                                             "sortName":  "love all",
+                                                             "mediaType":  "song",
+                                                             "musicBrainzId":  "",
+                                                             "isrc":  [
+                                                                          "USUG12104401"
+                                                                      ],
+                                                             "genres":  [
+
+                                                                        ],
+                                                             "replayGain":  {
+                                                                                "trackGain":  -10.2,
+                                                                                "trackPeak":  1
+                                                                            },
+                                                             "channelCount":  2,
+                                                             "samplingRate":  48000,
+                                                             "bitDepth":  24,
+                                                             "moods":  [
+
+                                                                       ],
+                                                             "artists":  [
+                                                                             {
+                                                                                 "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                 "name":  "Drake"
+                                                                             },
+                                                                             {
+                                                                                 "id":  "2s3tuz4Kd5Kf8WbutjNpaE",
+                                                                                 "name":  "JAÅ¸-Z"
+                                                                             }
+                                                                         ],
+                                                             "displayArtist":  "Drake; JAÅ¸-Z",
+                                                             "albumArtists":  [
+                                                                                  {
+                                                                                      "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                      "name":  "Drake"
+                                                                                  }
+                                                                              ],
+                                                             "displayAlbumArtist":  "Drake",
+                                                             "contributors":  [
+
+                                                                              ],
+                                                             "displayComposer":  "",
+                                                             "explicitStatus":  "explicit",
+                                                             "groupings":  [
+
+                                                                           ]
+                                                         },
+                                                         {
+                                                             "id":  "WAJ1EdTg0aJ6XsxgKZqFfr",
+                                                             "parent":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "isDir":  false,
+                                                             "title":  "Fair Trade",
+                                                             "album":  "Certified Lover Boy",
+                                                             "artist":  "Drake; Travis Scott",
+                                                             "track":  6,
+                                                             "year":  2021,
+                                                             "coverArt":  "mf-WAJ1EdTg0aJ6XsxgKZqFfr_6a3f0361",
+                                                             "size":  58403072,
+                                                             "contentType":  "audio/flac",
+                                                             "suffix":  "flac",
+                                                             "duration":  291,
+                                                             "bitRate":  1601,
+                                                             "path":  "Drake/Certified Lover Boy/01-06 - Fair Trade.flac",
+                                                             "discNumber":  1,
+                                                             "created":  "2026-06-26T22:58:15.050426971Z",
+                                                             "albumId":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "artistId":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                             "type":  "music",
+                                                             "bpm":  84,
+                                                             "comment":  "",
+                                                             "sortName":  "fair trade",
+                                                             "mediaType":  "song",
+                                                             "musicBrainzId":  "",
+                                                             "isrc":  [
+                                                                          "USUG12104402"
+                                                                      ],
+                                                             "genres":  [
+
+                                                                        ],
+                                                             "replayGain":  {
+                                                                                "trackGain":  -6.16,
+                                                                                "trackPeak":  1
+                                                                            },
+                                                             "channelCount":  2,
+                                                             "samplingRate":  48000,
+                                                             "bitDepth":  24,
+                                                             "moods":  [
+
+                                                                       ],
+                                                             "artists":  [
+                                                                             {
+                                                                                 "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                 "name":  "Drake"
+                                                                             },
+                                                                             {
+                                                                                 "id":  "5L95Del2yzb6IdPpjanEs5",
+                                                                                 "name":  "Travis Scott"
+                                                                             }
+                                                                         ],
+                                                             "displayArtist":  "Drake; Travis Scott",
+                                                             "albumArtists":  [
+                                                                                  {
+                                                                                      "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                      "name":  "Drake"
+                                                                                  }
+                                                                              ],
+                                                             "displayAlbumArtist":  "Drake",
+                                                             "contributors":  [
+
+                                                                              ],
+                                                             "displayComposer":  "",
+                                                             "explicitStatus":  "explicit",
+                                                             "groupings":  [
+
+                                                                           ]
+                                                         },
+                                                         {
+                                                             "id":  "yM8czk167gMRymoZTfgUlh",
+                                                             "parent":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "isDir":  false,
+                                                             "title":  "Way 2 Sexy",
+                                                             "album":  "Certified Lover Boy",
+                                                             "artist":  "Drake; Future; Young Thug",
+                                                             "track":  7,
+                                                             "year":  2021,
+                                                             "coverArt":  "mf-yM8czk167gMRymoZTfgUlh_6a3f0358",
+                                                             "size":  54558401,
+                                                             "contentType":  "audio/flac",
+                                                             "suffix":  "flac",
+                                                             "duration":  257,
+                                                             "bitRate":  1690,
+                                                             "path":  "Drake/Certified Lover Boy/01-07 - Way 2 Sexy.flac",
+                                                             "discNumber":  1,
+                                                             "created":  "2026-06-26T22:58:15.052402425Z",
+                                                             "albumId":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "artistId":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                             "type":  "music",
+                                                             "bpm":  136,
+                                                             "comment":  "",
+                                                             "sortName":  "way 2 sexy",
+                                                             "mediaType":  "song",
+                                                             "musicBrainzId":  "",
+                                                             "isrc":  [
+                                                                          "USUG12104403"
+                                                                      ],
+                                                             "genres":  [
+
+                                                                        ],
+                                                             "replayGain":  {
+                                                                                "trackGain":  -9.73,
+                                                                                "trackPeak":  1
+                                                                            },
+                                                             "channelCount":  2,
+                                                             "samplingRate":  48000,
+                                                             "bitDepth":  24,
+                                                             "moods":  [
+
+                                                                       ],
+                                                             "artists":  [
+                                                                             {
+                                                                                 "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                 "name":  "Drake"
+                                                                             },
+                                                                             {
+                                                                                 "id":  "3u8maeBd5dY0TURgo8Mjxm",
+                                                                                 "name":  "Future"
+                                                                             },
+                                                                             {
+                                                                                 "id":  "2SUH2dkitPcE2jFbBxzJY9",
+                                                                                 "name":  "Young Thug"
+                                                                             }
+                                                                         ],
+                                                             "displayArtist":  "Drake; Future; Young Thug",
+                                                             "albumArtists":  [
+                                                                                  {
+                                                                                      "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                      "name":  "Drake"
+                                                                                  }
+                                                                              ],
+                                                             "displayAlbumArtist":  "Drake",
+                                                             "contributors":  [
+
+                                                                              ],
+                                                             "displayComposer":  "",
+                                                             "explicitStatus":  "explicit",
+                                                             "groupings":  [
+
+                                                                           ]
+                                                         },
+                                                         {
+                                                             "id":  "JvYfvshCW64wIVzXjV112r",
+                                                             "parent":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "isDir":  false,
+                                                             "title":  "TSU",
+                                                             "album":  "Certified Lover Boy",
+                                                             "artist":  "Drake",
+                                                             "track":  8,
+                                                             "year":  2021,
+                                                             "coverArt":  "mf-JvYfvshCW64wIVzXjV112r_6a3f036a",
+                                                             "size":  60342866,
+                                                             "contentType":  "audio/flac",
+                                                             "suffix":  "flac",
+                                                             "duration":  308,
+                                                             "bitRate":  1560,
+                                                             "path":  "Drake/Certified Lover Boy/01-08 - TSU.flac",
+                                                             "discNumber":  1,
+                                                             "created":  "2026-06-26T22:58:15.050002574Z",
+                                                             "albumId":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "artistId":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                             "type":  "music",
+                                                             "bpm":  130,
+                                                             "comment":  "",
+                                                             "sortName":  "tsu",
+                                                             "mediaType":  "song",
+                                                             "musicBrainzId":  "",
+                                                             "isrc":  [
+                                                                          "USUG12104404"
+                                                                      ],
+                                                             "genres":  [
+
+                                                                        ],
+                                                             "replayGain":  {
+                                                                                "trackGain":  -6.73,
+                                                                                "trackPeak":  1
+                                                                            },
+                                                             "channelCount":  2,
+                                                             "samplingRate":  48000,
+                                                             "bitDepth":  24,
+                                                             "moods":  [
+
+                                                                       ],
+                                                             "artists":  [
+                                                                             {
+                                                                                 "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                 "name":  "Drake"
+                                                                             }
+                                                                         ],
+                                                             "displayArtist":  "Drake",
+                                                             "albumArtists":  [
+                                                                                  {
+                                                                                      "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                      "name":  "Drake"
+                                                                                  }
+                                                                              ],
+                                                             "displayAlbumArtist":  "Drake",
+                                                             "contributors":  [
+
+                                                                              ],
+                                                             "displayComposer":  "",
+                                                             "explicitStatus":  "explicit",
+                                                             "groupings":  [
+
+                                                                           ]
+                                                         },
+                                                         {
+                                                             "id":  "HL4wfkBuGyHvOVAXxukCOR",
+                                                             "parent":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "isDir":  false,
+                                                             "title":  "N 2 Deep",
+                                                             "album":  "Certified Lover Boy",
+                                                             "artist":  "Drake; Future",
+                                                             "track":  9,
+                                                             "year":  2021,
+                                                             "coverArt":  "mf-HL4wfkBuGyHvOVAXxukCOR_6a3f035a",
+                                                             "size":  54733304,
+                                                             "contentType":  "audio/flac",
+                                                             "suffix":  "flac",
+                                                             "duration":  273,
+                                                             "bitRate":  1597,
+                                                             "path":  "Drake/Certified Lover Boy/01-09 - N 2 Deep.flac",
+                                                             "discNumber":  1,
+                                                             "created":  "2026-06-26T22:58:15.049248401Z",
+                                                             "albumId":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "artistId":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                             "type":  "music",
+                                                             "bpm":  130,
+                                                             "comment":  "",
+                                                             "sortName":  "n 2 deep",
+                                                             "mediaType":  "song",
+                                                             "musicBrainzId":  "",
+                                                             "isrc":  [
+                                                                          "USUG12104405"
+                                                                      ],
+                                                             "genres":  [
+
+                                                                        ],
+                                                             "replayGain":  {
+                                                                                "trackGain":  -8.38,
+                                                                                "trackPeak":  1
+                                                                            },
+                                                             "channelCount":  2,
+                                                             "samplingRate":  48000,
+                                                             "bitDepth":  24,
+                                                             "moods":  [
+
+                                                                       ],
+                                                             "artists":  [
+                                                                             {
+                                                                                 "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                 "name":  "Drake"
+                                                                             },
+                                                                             {
+                                                                                 "id":  "3u8maeBd5dY0TURgo8Mjxm",
+                                                                                 "name":  "Future"
+                                                                             }
+                                                                         ],
+                                                             "displayArtist":  "Drake; Future",
+                                                             "albumArtists":  [
+                                                                                  {
+                                                                                      "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                      "name":  "Drake"
+                                                                                  }
+                                                                              ],
+                                                             "displayAlbumArtist":  "Drake",
+                                                             "contributors":  [
+
+                                                                              ],
+                                                             "displayComposer":  "",
+                                                             "explicitStatus":  "explicit",
+                                                             "groupings":  [
+
+                                                                           ]
+                                                         },
+                                                         {
+                                                             "id":  "2fhcESZFtfs8G0OvWfNd6Q",
+                                                             "parent":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "isDir":  false,
+                                                             "title":  "Pipe Down",
+                                                             "album":  "Certified Lover Boy",
+                                                             "artist":  "Drake",
+                                                             "track":  10,
+                                                             "year":  2021,
+                                                             "coverArt":  "mf-2fhcESZFtfs8G0OvWfNd6Q_6a3f0359",
+                                                             "size":  45436576,
+                                                             "contentType":  "audio/flac",
+                                                             "suffix":  "flac",
+                                                             "duration":  205,
+                                                             "bitRate":  1762,
+                                                             "path":  "Drake/Certified Lover Boy/01-10 - Pipe Down.flac",
+                                                             "discNumber":  1,
+                                                             "created":  "2026-06-26T22:58:15.048542039Z",
+                                                             "albumId":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "artistId":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                             "type":  "music",
+                                                             "bpm":  78,
+                                                             "comment":  "",
+                                                             "sortName":  "pipe down",
+                                                             "mediaType":  "song",
+                                                             "musicBrainzId":  "",
+                                                             "isrc":  [
+                                                                          "USUG12104406"
+                                                                      ],
+                                                             "genres":  [
+
+                                                                        ],
+                                                             "replayGain":  {
+                                                                                "trackGain":  -9.5,
+                                                                                "trackPeak":  1
+                                                                            },
+                                                             "channelCount":  2,
+                                                             "samplingRate":  48000,
+                                                             "bitDepth":  24,
+                                                             "moods":  [
+
+                                                                       ],
+                                                             "artists":  [
+                                                                             {
+                                                                                 "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                 "name":  "Drake"
+                                                                             }
+                                                                         ],
+                                                             "displayArtist":  "Drake",
+                                                             "albumArtists":  [
+                                                                                  {
+                                                                                      "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                      "name":  "Drake"
+                                                                                  }
+                                                                              ],
+                                                             "displayAlbumArtist":  "Drake",
+                                                             "contributors":  [
+
+                                                                              ],
+                                                             "displayComposer":  "",
+                                                             "explicitStatus":  "explicit",
+                                                             "groupings":  [
+
+                                                                           ]
+                                                         },
+                                                         {
+                                                             "id":  "838DsnPqsqSP3FmmtWfb3M",
+                                                             "parent":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "isDir":  false,
+                                                             "title":  "Yebbaâs Heartbreak",
+                                                             "album":  "Certified Lover Boy",
+                                                             "artist":  "Drake; Yebba",
+                                                             "track":  11,
+                                                             "year":  2021,
+                                                             "coverArt":  "mf-838DsnPqsqSP3FmmtWfb3M_6a3f035e",
+                                                             "size":  22705851,
+                                                             "contentType":  "audio/flac",
+                                                             "suffix":  "flac",
+                                                             "duration":  133,
+                                                             "bitRate":  1350,
+                                                             "path":  "Drake/Certified Lover Boy/01-11 - Yebbaâs Heartbreak.flac",
+                                                             "discNumber":  1,
+                                                             "created":  "2026-06-26T22:58:15.050693733Z",
+                                                             "albumId":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "artistId":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                             "type":  "music",
+                                                             "bpm":  120,
+                                                             "comment":  "",
+                                                             "sortName":  "yebba\u0027s heartbreak",
+                                                             "mediaType":  "song",
+                                                             "musicBrainzId":  "",
+                                                             "isrc":  [
+                                                                          "USUG12104407"
+                                                                      ],
+                                                             "genres":  [
+
+                                                                        ],
+                                                             "replayGain":  {
+                                                                                "trackGain":  -6.2,
+                                                                                "trackPeak":  0.968231
+                                                                            },
+                                                             "channelCount":  2,
+                                                             "samplingRate":  48000,
+                                                             "bitDepth":  24,
+                                                             "moods":  [
+
+                                                                       ],
+                                                             "artists":  [
+                                                                             {
+                                                                                 "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                 "name":  "Drake"
+                                                                             },
+                                                                             {
+                                                                                 "id":  "3OM2SN7jf8uVTTOoeJo99C",
+                                                                                 "name":  "Yebba"
+                                                                             }
+                                                                         ],
+                                                             "displayArtist":  "Drake; Yebba",
+                                                             "albumArtists":  [
+                                                                                  {
+                                                                                      "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                      "name":  "Drake"
+                                                                                  }
+                                                                              ],
+                                                             "displayAlbumArtist":  "Drake",
+                                                             "contributors":  [
+
+                                                                              ],
+                                                             "displayComposer":  "",
+                                                             "explicitStatus":  "explicit",
+                                                             "groupings":  [
+
+                                                                           ]
+                                                         },
+                                                         {
+                                                             "id":  "VOy9DHi5zrLz466l4q64Uk",
+                                                             "parent":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "isDir":  false,
+                                                             "title":  "No Friends In The Industry",
+                                                             "album":  "Certified Lover Boy",
+                                                             "artist":  "Drake",
+                                                             "track":  12,
+                                                             "year":  2021,
+                                                             "coverArt":  "mf-VOy9DHi5zrLz466l4q64Uk_6a3f0368",
+                                                             "size":  43869606,
+                                                             "contentType":  "audio/flac",
+                                                             "suffix":  "flac",
+                                                             "duration":  204,
+                                                             "bitRate":  1712,
+                                                             "path":  "Drake/Certified Lover Boy/01-12 - No Friends In The Industry.flac",
+                                                             "discNumber":  1,
+                                                             "created":  "2026-06-26T22:58:15.050914283Z",
+                                                             "albumId":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "artistId":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                             "type":  "music",
+                                                             "bpm":  166,
+                                                             "comment":  "",
+                                                             "sortName":  "no friends in the industry",
+                                                             "mediaType":  "song",
+                                                             "musicBrainzId":  "",
+                                                             "isrc":  [
+                                                                          "USUG12104408"
+                                                                      ],
+                                                             "genres":  [
+
+                                                                        ],
+                                                             "replayGain":  {
+                                                                                "trackGain":  -9.45,
+                                                                                "trackPeak":  1
+                                                                            },
+                                                             "channelCount":  2,
+                                                             "samplingRate":  48000,
+                                                             "bitDepth":  24,
+                                                             "moods":  [
+
+                                                                       ],
+                                                             "artists":  [
+                                                                             {
+                                                                                 "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                 "name":  "Drake"
+                                                                             }
+                                                                         ],
+                                                             "displayArtist":  "Drake",
+                                                             "albumArtists":  [
+                                                                                  {
+                                                                                      "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                      "name":  "Drake"
+                                                                                  }
+                                                                              ],
+                                                             "displayAlbumArtist":  "Drake",
+                                                             "contributors":  [
+
+                                                                              ],
+                                                             "displayComposer":  "",
+                                                             "explicitStatus":  "explicit",
+                                                             "groupings":  [
+
+                                                                           ]
+                                                         },
+                                                         {
+                                                             "id":  "NbKMfmuEWUk3ThG7rI6I2a",
+                                                             "parent":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "isDir":  false,
+                                                             "title":  "Knife Talk",
+                                                             "album":  "Certified Lover Boy",
+                                                             "artist":  "Drake; 21 Savage; Project Pat",
+                                                             "track":  13,
+                                                             "year":  2021,
+                                                             "coverArt":  "mf-NbKMfmuEWUk3ThG7rI6I2a_6a3f035f",
+                                                             "size":  48630959,
+                                                             "contentType":  "audio/flac",
+                                                             "suffix":  "flac",
+                                                             "duration":  242,
+                                                             "bitRate":  1597,
+                                                             "path":  "Drake/Certified Lover Boy/01-13 - Knife Talk.flac",
+                                                             "discNumber":  1,
+                                                             "created":  "2026-06-26T22:58:15.047815072Z",
+                                                             "albumId":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "artistId":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                             "type":  "music",
+                                                             "bpm":  146,
+                                                             "comment":  "",
+                                                             "sortName":  "knife talk",
+                                                             "mediaType":  "song",
+                                                             "musicBrainzId":  "",
+                                                             "isrc":  [
+                                                                          "USUG12104409"
+                                                                      ],
+                                                             "genres":  [
+
+                                                                        ],
+                                                             "replayGain":  {
+                                                                                "trackGain":  -6.52,
+                                                                                "trackPeak":  1
+                                                                            },
+                                                             "channelCount":  2,
+                                                             "samplingRate":  48000,
+                                                             "bitDepth":  24,
+                                                             "moods":  [
+
+                                                                       ],
+                                                             "artists":  [
+                                                                             {
+                                                                                 "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                 "name":  "Drake"
+                                                                             },
+                                                                             {
+                                                                                 "id":  "4NxVR0mOPN6KeIt2HyVgYS",
+                                                                                 "name":  "21 Savage"
+                                                                             },
+                                                                             {
+                                                                                 "id":  "7IMryVhpeYAp50uiR2s3pY",
+                                                                                 "name":  "Project Pat"
+                                                                             }
+                                                                         ],
+                                                             "displayArtist":  "Drake; 21 Savage; Project Pat",
+                                                             "albumArtists":  [
+                                                                                  {
+                                                                                      "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                      "name":  "Drake"
+                                                                                  }
+                                                                              ],
+                                                             "displayAlbumArtist":  "Drake",
+                                                             "contributors":  [
+
+                                                                              ],
+                                                             "displayComposer":  "",
+                                                             "explicitStatus":  "explicit",
+                                                             "groupings":  [
+
+                                                                           ]
+                                                         },
+                                                         {
+                                                             "id":  "8E06bPpgHxbEBSU0f7rTmF",
+                                                             "parent":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "isDir":  false,
+                                                             "title":  "7am On Bridle Path",
+                                                             "album":  "Certified Lover Boy",
+                                                             "artist":  "Drake",
+                                                             "track":  14,
+                                                             "year":  2021,
+                                                             "coverArt":  "mf-8E06bPpgHxbEBSU0f7rTmF_6a3f035c",
+                                                             "size":  48441789,
+                                                             "contentType":  "audio/flac",
+                                                             "suffix":  "flac",
+                                                             "duration":  239,
+                                                             "bitRate":  1613,
+                                                             "path":  "Drake/Certified Lover Boy/01-14 - 7am On Bridle Path.flac",
+                                                             "discNumber":  1,
+                                                             "created":  "2026-06-26T22:58:15.049475353Z",
+                                                             "albumId":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "artistId":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                             "type":  "music",
+                                                             "bpm":  90,
+                                                             "comment":  "",
+                                                             "sortName":  "7am on bridle path",
+                                                             "mediaType":  "song",
+                                                             "musicBrainzId":  "",
+                                                             "isrc":  [
+                                                                          "USUG12104410"
+                                                                      ],
+                                                             "genres":  [
+
+                                                                        ],
+                                                             "replayGain":  {
+                                                                                "trackGain":  -8.35,
+                                                                                "trackPeak":  1
+                                                                            },
+                                                             "channelCount":  2,
+                                                             "samplingRate":  48000,
+                                                             "bitDepth":  24,
+                                                             "moods":  [
+
+                                                                       ],
+                                                             "artists":  [
+                                                                             {
+                                                                                 "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                 "name":  "Drake"
+                                                                             }
+                                                                         ],
+                                                             "displayArtist":  "Drake",
+                                                             "albumArtists":  [
+                                                                                  {
+                                                                                      "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                      "name":  "Drake"
+                                                                                  }
+                                                                              ],
+                                                             "displayAlbumArtist":  "Drake",
+                                                             "contributors":  [
+
+                                                                              ],
+                                                             "displayComposer":  "",
+                                                             "explicitStatus":  "explicit",
+                                                             "groupings":  [
+
+                                                                           ]
+                                                         },
+                                                         {
+                                                             "id":  "uVFeB9jCPcGvNhO855NFjY",
+                                                             "parent":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "isDir":  false,
+                                                             "title":  "Race My Mind",
+                                                             "album":  "Certified Lover Boy",
+                                                             "artist":  "Drake",
+                                                             "track":  15,
+                                                             "year":  2021,
+                                                             "coverArt":  "mf-uVFeB9jCPcGvNhO855NFjY_6a3f0369",
+                                                             "size":  56969543,
+                                                             "contentType":  "audio/flac",
+                                                             "suffix":  "flac",
+                                                             "duration":  269,
+                                                             "bitRate":  1685,
+                                                             "path":  "Drake/Certified Lover Boy/01-15 - Race My Mind.flac",
+                                                             "discNumber":  1,
+                                                             "created":  "2026-06-26T22:58:15.050217523Z",
+                                                             "albumId":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "artistId":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                             "type":  "music",
+                                                             "bpm":  87,
+                                                             "comment":  "",
+                                                             "sortName":  "race my mind",
+                                                             "mediaType":  "song",
+                                                             "musicBrainzId":  "",
+                                                             "isrc":  [
+                                                                          "USUG12104411"
+                                                                      ],
+                                                             "genres":  [
+
+                                                                        ],
+                                                             "replayGain":  {
+                                                                                "trackGain":  -9.44,
+                                                                                "trackPeak":  1
+                                                                            },
+                                                             "channelCount":  2,
+                                                             "samplingRate":  48000,
+                                                             "bitDepth":  24,
+                                                             "moods":  [
+
+                                                                       ],
+                                                             "artists":  [
+                                                                             {
+                                                                                 "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                 "name":  "Drake"
+                                                                             }
+                                                                         ],
+                                                             "displayArtist":  "Drake",
+                                                             "albumArtists":  [
+                                                                                  {
+                                                                                      "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                      "name":  "Drake"
+                                                                                  }
+                                                                              ],
+                                                             "displayAlbumArtist":  "Drake",
+                                                             "contributors":  [
+
+                                                                              ],
+                                                             "displayComposer":  "",
+                                                             "explicitStatus":  "explicit",
+                                                             "groupings":  [
+
+                                                                           ]
+                                                         },
+                                                         {
+                                                             "id":  "AU6wMsqV9W5Ce2IOI8jNr2",
+                                                             "parent":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "isDir":  false,
+                                                             "title":  "Fountains",
+                                                             "album":  "Certified Lover Boy",
+                                                             "artist":  "Drake; Tems",
+                                                             "track":  16,
+                                                             "year":  2021,
+                                                             "coverArt":  "mf-AU6wMsqV9W5Ce2IOI8jNr2_6a3f0366",
+                                                             "size":  38695504,
+                                                             "contentType":  "audio/flac",
+                                                             "suffix":  "flac",
+                                                             "duration":  192,
+                                                             "bitRate":  1603,
+                                                             "path":  "Drake/Certified Lover Boy/01-16 - Fountains.flac",
+                                                             "discNumber":  1,
+                                                             "created":  "2026-06-26T22:58:15.052141565Z",
+                                                             "albumId":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "artistId":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                             "type":  "music",
+                                                             "bpm":  100,
+                                                             "comment":  "",
+                                                             "sortName":  "fountains",
+                                                             "mediaType":  "song",
+                                                             "musicBrainzId":  "",
+                                                             "isrc":  [
+                                                                          "USUG12104412"
+                                                                      ],
+                                                             "genres":  [
+
+                                                                        ],
+                                                             "replayGain":  {
+                                                                                "trackGain":  -9.32,
+                                                                                "trackPeak":  1
+                                                                            },
+                                                             "channelCount":  2,
+                                                             "samplingRate":  48000,
+                                                             "bitDepth":  24,
+                                                             "moods":  [
+
+                                                                       ],
+                                                             "artists":  [
+                                                                             {
+                                                                                 "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                 "name":  "Drake"
+                                                                             },
+                                                                             {
+                                                                                 "id":  "4NZ7nukSSxILHfYtvU8g8Q",
+                                                                                 "name":  "Tems"
+                                                                             }
+                                                                         ],
+                                                             "displayArtist":  "Drake; Tems",
+                                                             "albumArtists":  [
+                                                                                  {
+                                                                                      "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                      "name":  "Drake"
+                                                                                  }
+                                                                              ],
+                                                             "displayAlbumArtist":  "Drake",
+                                                             "contributors":  [
+
+                                                                              ],
+                                                             "displayComposer":  "",
+                                                             "explicitStatus":  "explicit",
+                                                             "groupings":  [
+
+                                                                           ]
+                                                         },
+                                                         {
+                                                             "id":  "T8ycwBHrddQ0tEr746pBSS",
+                                                             "parent":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "isDir":  false,
+                                                             "title":  "Get Along Better",
+                                                             "album":  "Certified Lover Boy",
+                                                             "artist":  "Drake; Ty Dolla $ign",
+                                                             "track":  17,
+                                                             "year":  2021,
+                                                             "coverArt":  "mf-T8ycwBHrddQ0tEr746pBSS_6a3f0365",
+                                                             "size":  49705192,
+                                                             "contentType":  "audio/flac",
+                                                             "suffix":  "flac",
+                                                             "duration":  229,
+                                                             "bitRate":  1730,
+                                                             "path":  "Drake/Certified Lover Boy/01-17 - Get Along Better.flac",
+                                                             "discNumber":  1,
+                                                             "created":  "2026-06-26T22:58:15.048322188Z",
+                                                             "albumId":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "artistId":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                             "type":  "music",
+                                                             "bpm":  178,
+                                                             "comment":  "",
+                                                             "sortName":  "get along better",
+                                                             "mediaType":  "song",
+                                                             "musicBrainzId":  "",
+                                                             "isrc":  [
+                                                                          "USUG12104413"
+                                                                      ],
+                                                             "genres":  [
+
+                                                                        ],
+                                                             "replayGain":  {
+                                                                                "trackGain":  -8.84,
+                                                                                "trackPeak":  1
+                                                                            },
+                                                             "channelCount":  2,
+                                                             "samplingRate":  48000,
+                                                             "bitDepth":  24,
+                                                             "moods":  [
+
+                                                                       ],
+                                                             "artists":  [
+                                                                             {
+                                                                                 "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                 "name":  "Drake"
+                                                                             },
+                                                                             {
+                                                                                 "id":  "6MhWnhqN3vKlTeeaMaqPQx",
+                                                                                 "name":  "Ty Dolla $ign"
+                                                                             }
+                                                                         ],
+                                                             "displayArtist":  "Drake; Ty Dolla $ign",
+                                                             "albumArtists":  [
+                                                                                  {
+                                                                                      "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                      "name":  "Drake"
+                                                                                  }
+                                                                              ],
+                                                             "displayAlbumArtist":  "Drake",
+                                                             "contributors":  [
+
+                                                                              ],
+                                                             "displayComposer":  "",
+                                                             "explicitStatus":  "explicit",
+                                                             "groupings":  [
+
+                                                                           ]
+                                                         },
+                                                         {
+                                                             "id":  "tfUvuXRAu5q0rHjx9Hg86j",
+                                                             "parent":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "isDir":  false,
+                                                             "title":  "You Only Live Twice",
+                                                             "album":  "Certified Lover Boy",
+                                                             "artist":  "Drake; Lil Wayne; Rick Ross",
+                                                             "track":  18,
+                                                             "year":  2021,
+                                                             "coverArt":  "mf-tfUvuXRAu5q0rHjx9Hg86j_6a3f0363",
+                                                             "size":  44745574,
+                                                             "contentType":  "audio/flac",
+                                                             "suffix":  "flac",
+                                                             "duration":  213,
+                                                             "bitRate":  1675,
+                                                             "path":  "Drake/Certified Lover Boy/01-18 - You Only Live Twice.flac",
+                                                             "discNumber":  1,
+                                                             "created":  "2026-06-26T22:58:15.048075332Z",
+                                                             "albumId":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "artistId":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                             "type":  "music",
+                                                             "bpm":  93,
+                                                             "comment":  "",
+                                                             "sortName":  "you only live twice",
+                                                             "mediaType":  "song",
+                                                             "musicBrainzId":  "",
+                                                             "isrc":  [
+                                                                          "USUG12104438"
+                                                                      ],
+                                                             "genres":  [
+
+                                                                        ],
+                                                             "replayGain":  {
+                                                                                "trackGain":  -8.93,
+                                                                                "trackPeak":  0.981262
+                                                                            },
+                                                             "channelCount":  2,
+                                                             "samplingRate":  48000,
+                                                             "bitDepth":  24,
+                                                             "moods":  [
+
+                                                                       ],
+                                                             "artists":  [
+                                                                             {
+                                                                                 "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                 "name":  "Drake"
+                                                                             },
+                                                                             {
+                                                                                 "id":  "0ZGjf7AIXkeMMwqdFTBRDl",
+                                                                                 "name":  "Lil Wayne"
+                                                                             },
+                                                                             {
+                                                                                 "id":  "6rfIhFHX86c5JQBOIGRW6H",
+                                                                                 "name":  "Rick Ross"
+                                                                             }
+                                                                         ],
+                                                             "displayArtist":  "Drake; Lil Wayne; Rick Ross",
+                                                             "albumArtists":  [
+                                                                                  {
+                                                                                      "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                      "name":  "Drake"
+                                                                                  }
+                                                                              ],
+                                                             "displayAlbumArtist":  "Drake",
+                                                             "contributors":  [
+
+                                                                              ],
+                                                             "displayComposer":  "",
+                                                             "explicitStatus":  "explicit",
+                                                             "groupings":  [
+
+                                                                           ]
+                                                         },
+                                                         {
+                                                             "id":  "m0Zucsase9Ueg4DDqqYK7v",
+                                                             "parent":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "isDir":  false,
+                                                             "title":  "IMY2",
+                                                             "album":  "Certified Lover Boy",
+                                                             "artist":  "Drake; Kid Cudi",
+                                                             "track":  19,
+                                                             "year":  2021,
+                                                             "coverArt":  "mf-m0Zucsase9Ueg4DDqqYK7v_6a3f0364",
+                                                             "size":  49723245,
+                                                             "contentType":  "audio/flac",
+                                                             "suffix":  "flac",
+                                                             "duration":  252,
+                                                             "bitRate":  1572,
+                                                             "path":  "Drake/Certified Lover Boy/01-19 - IMY2.flac",
+                                                             "discNumber":  1,
+                                                             "created":  "2026-06-26T22:58:15.051617045Z",
+                                                             "albumId":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "artistId":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                             "type":  "music",
+                                                             "bpm":  151,
+                                                             "comment":  "",
+                                                             "sortName":  "imy2",
+                                                             "mediaType":  "song",
+                                                             "musicBrainzId":  "",
+                                                             "isrc":  [
+                                                                          "USUG12104437"
+                                                                      ],
+                                                             "genres":  [
+
+                                                                        ],
+                                                             "replayGain":  {
+                                                                                "trackGain":  -7.23,
+                                                                                "trackPeak":  1
+                                                                            },
+                                                             "channelCount":  2,
+                                                             "samplingRate":  48000,
+                                                             "bitDepth":  24,
+                                                             "moods":  [
+
+                                                                       ],
+                                                             "artists":  [
+                                                                             {
+                                                                                 "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                 "name":  "Drake"
+                                                                             },
+                                                                             {
+                                                                                 "id":  "3in1PV4Lc9OPCGoKLnNJxS",
+                                                                                 "name":  "Kid Cudi"
+                                                                             }
+                                                                         ],
+                                                             "displayArtist":  "Drake; Kid Cudi",
+                                                             "albumArtists":  [
+                                                                                  {
+                                                                                      "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                      "name":  "Drake"
+                                                                                  }
+                                                                              ],
+                                                             "displayAlbumArtist":  "Drake",
+                                                             "contributors":  [
+
+                                                                              ],
+                                                             "displayComposer":  "",
+                                                             "explicitStatus":  "explicit",
+                                                             "groupings":  [
+
+                                                                           ]
+                                                         },
+                                                         {
+                                                             "id":  "Z69RNsfGo9pgPIo96c5YPL",
+                                                             "parent":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "isDir":  false,
+                                                             "title":  "F*****g Fans",
+                                                             "album":  "Certified Lover Boy",
+                                                             "artist":  "Drake",
+                                                             "track":  20,
+                                                             "year":  2021,
+                                                             "coverArt":  "mf-Z69RNsfGo9pgPIo96c5YPL_6a3f0366",
+                                                             "size":  45206806,
+                                                             "contentType":  "audio/flac",
+                                                             "suffix":  "flac",
+                                                             "duration":  245,
+                                                             "bitRate":  1471,
+                                                             "path":  "Drake/Certified Lover Boy/01-20 - F*****g Fans.flac",
+                                                             "discNumber":  1,
+                                                             "created":  "2026-06-26T22:58:15.049785124Z",
+                                                             "albumId":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "artistId":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                             "type":  "music",
+                                                             "bpm":  87,
+                                                             "comment":  "",
+                                                             "sortName":  "f*****g fans",
+                                                             "mediaType":  "song",
+                                                             "musicBrainzId":  "",
+                                                             "isrc":  [
+                                                                          "USUG12104414"
+                                                                      ],
+                                                             "genres":  [
+
+                                                                        ],
+                                                             "replayGain":  {
+                                                                                "trackGain":  -7.64,
+                                                                                "trackPeak":  1
+                                                                            },
+                                                             "channelCount":  2,
+                                                             "samplingRate":  48000,
+                                                             "bitDepth":  24,
+                                                             "moods":  [
+
+                                                                       ],
+                                                             "artists":  [
+                                                                             {
+                                                                                 "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                 "name":  "Drake"
+                                                                             }
+                                                                         ],
+                                                             "displayArtist":  "Drake",
+                                                             "albumArtists":  [
+                                                                                  {
+                                                                                      "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                      "name":  "Drake"
+                                                                                  }
+                                                                              ],
+                                                             "displayAlbumArtist":  "Drake",
+                                                             "contributors":  [
+
+                                                                              ],
+                                                             "displayComposer":  "",
+                                                             "explicitStatus":  "explicit",
+                                                             "groupings":  [
+
+                                                                           ]
+                                                         },
+                                                         {
+                                                             "id":  "DXyY4DxWA8t1vHXuOahCG4",
+                                                             "parent":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "isDir":  false,
+                                                             "title":  "The Remorse",
+                                                             "album":  "Certified Lover Boy",
+                                                             "artist":  "Drake",
+                                                             "track":  21,
+                                                             "year":  2021,
+                                                             "coverArt":  "mf-DXyY4DxWA8t1vHXuOahCG4_6a3f035d",
+                                                             "size":  65511300,
+                                                             "contentType":  "audio/flac",
+                                                             "suffix":  "flac",
+                                                             "duration":  351,
+                                                             "bitRate":  1489,
+                                                             "path":  "Drake/Certified Lover Boy/01-21 - The Remorse.flac",
+                                                             "discNumber":  1,
+                                                             "created":  "2026-06-26T22:58:15.047448588Z",
+                                                             "albumId":  "68RTjMn77O6rBFiwBwvxOx",
+                                                             "artistId":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                             "type":  "music",
+                                                             "bpm":  89,
+                                                             "comment":  "",
+                                                             "sortName":  "the remorse",
+                                                             "mediaType":  "song",
+                                                             "musicBrainzId":  "",
+                                                             "isrc":  [
+                                                                          "USUG12104415"
+                                                                      ],
+                                                             "genres":  [
+
+                                                                        ],
+                                                             "replayGain":  {
+                                                                                "trackGain":  -10.3,
+                                                                                "trackPeak":  1
+                                                                            },
+                                                             "channelCount":  2,
+                                                             "samplingRate":  48000,
+                                                             "bitDepth":  24,
+                                                             "moods":  [
+
+                                                                       ],
+                                                             "artists":  [
+                                                                             {
+                                                                                 "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                 "name":  "Drake"
+                                                                             }
+                                                                         ],
+                                                             "displayArtist":  "Drake",
+                                                             "albumArtists":  [
+                                                                                  {
+                                                                                      "id":  "2Y09fvZjxV9n5twPmfCTDz",
+                                                                                      "name":  "Drake"
+                                                                                  }
+                                                                              ],
+                                                             "displayAlbumArtist":  "Drake",
+                                                             "contributors":  [
+
+                                                                              ],
+                                                             "displayComposer":  "",
+                                                             "explicitStatus":  "explicit",
+                                                             "groupings":  [
+
+                                                                           ]
+                                                         }
+                                                     ]
+                                        }
+                          }
+}
