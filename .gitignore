@@ -1,0 +1,8 @@
+# Navidrome local credentials
+scripts/config.local.ps1
+
+# Navidrome runtime data
+docker/data/
+
+# Local music library (dev only)
+music/

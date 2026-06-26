@@ -29,6 +29,8 @@ Instead of relying on obsolete streaming clients, Groooove connects directly to 
 - iOS 9
 - iOS 10
 
+Minimum deployment target: **iOS 8.0**. iOS 7 is out of scope — see [docs/PLATFORM.md](docs/PLATFORM.md).
+
 ## License
 
 MIT
